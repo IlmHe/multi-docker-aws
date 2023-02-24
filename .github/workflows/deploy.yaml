@@ -13,7 +13,7 @@ jobs:
       - run: docker build -t elekdocker/react-test -f ./client/Dockerfile.dev ./client
       - run: docker run -e CI=true elekdocker/react-test npm test
 
-      - run: docker build -t elekdocker/multi-client-10-14 ./client
+      - run: docker build -t cygnetops/multi-client-10-14 ./client
       - run: docker build -t elekdocker/multi-nginx-10-14 ./nginx
       - run: docker build -t elekdocker/multi-server-10-14 ./server
       - run: docker build -t elekdocker/multi-worker-10-14 ./worker
