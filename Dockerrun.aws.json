@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "client",
-      "image": "elekdocker/multi-client-10-14",
+      "image": "elekdocker/multi-client",
       "hostname": "client",
       "essential": false
     },
