@@ -16,6 +16,6 @@ Overengineered Fibonacci calculator utilizing NGINX, Redis, and PostgreSQL. The 
 
 **Application development**: Docker
 
-**CI Pipeline**: GitHub Actions
+**CI**: GitHub Actions
 
 **Cloud services**: AWS Elastic Beanstalk, AWS Relational Database Service, AWS ElastiCache
