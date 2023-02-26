@@ -23,17 +23,17 @@ jobs:
       - run: docker push elekdocker/multi-server-10-14
       - run: docker push elekdocker/multi-worker-10-14
 
-      - name: Generate deployment package
-        run: zip -r deploy.zip . -x '*.git*'
+#      - name: Generate deployment package
+#        run: zip -r deploy.zip . -x '*.git*'
 
-      - name: Deploy to EB
-        uses: einaregilsson/beanstalk-deploy@v18
-        with:
-          aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
-          aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: multi-docker
-          environment_name: Multidocker-env-1
-          existing_bucket_name: elasticbeanstalk-eu-north-1-384867405112
-          region: eu-north-1
-          version_label: ${{ github.sha }}
-          deployment_package: deploy.zip
+#      - name: Deploy to EB
+#        uses: einaregilsson/beanstalk-deploy@v18
+#        with:
+#          aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
+#          aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
+#          application_name: multi-docker
+#          environment_name: Multidocker-env-1
+#          existing_bucket_name: elasticbeanstalk-eu-north-1-384867405112
+#          region: eu-north-1
+#          version_label: ${{ github.sha }}
+#          deployment_package: deploy.zip
