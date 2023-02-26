@@ -1,7 +1,7 @@
 
 # Fibonacci calculator
 
-Overengineered Fibonacci calculator utilizing NGINX, Redis, PostgreSQL and Docker. It is deployed to AWS Elastic Beanstalk, AWS Relational Database Service, and AWS ElastiCache.
+Overengineered Fibonacci calculator utilizing NGINX, Redis, PostgreSQL and Docker.
 
 
 ## Tech Stack
