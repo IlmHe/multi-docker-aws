@@ -14,7 +14,7 @@ Overengineered Fibonacci calculator utilizing NGINX, Redis, PostgreSQL and Docke
 
 **Reverse proxy:** Nginx
 
-**Application development**: Docker
+**Application development**: Docker & Docker Compose
 
 **CI**: GitHub Actions
 
