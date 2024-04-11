@@ -1,7 +1,7 @@
 
 # Fibonacci calculator
 
-Overengineered Fibonacci calculator utilizing NGINX, Redis, PostgreSQL and Docker.
+Overengineered Fibonacci calculator utilizing NGINX, Redis, PostgreSQL and Docker. Demo project to learn AWS.
 
 
 ## Tech Stack
@@ -11,10 +11,6 @@ Overengineered Fibonacci calculator utilizing NGINX, Redis, PostgreSQL and Docke
 **Server:** Node, Express
 
 **Databases:** Redis, Postgres
-
-**Reverse proxy:** Nginx
-
-**Application development**: Docker & Docker Compose
 
 **CI**: GitHub Actions
 
